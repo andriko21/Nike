@@ -1,0 +1,319 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+
+  background: linear-gradient(162.17deg, #590000 52.9%, #000000 92.78%);
+
+  background-repeat: no-repeat;
+  padding: 40px 85px 0 85px;
+  // height: 900px;
+}
+
+.air {
+  z-index: -1;
+  position: absolute;
+  width: 570px;
+  height: 480px;
+  left: 640.86px;
+  top: 93px;
+  background: url(../airJordan.png);
+  background-repeat: no-repeat;
+}
+
+.header__wrapper {
+  display: flex;
+
+  align-items: center;
+}
+
+.header__list {
+  padding: 0;
+  margin-left: 75px;
+  display: inline-flex;
+  list-style-type: none;
+}
+
+.header_items {
+  margin-right: 56px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.header__links {
+  text-decoration: none;
+
+  width: 45px;
+  height: 18px;
+
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+
+.header__icons_container {
+  display: flex;
+  margin-left: auto;
+  margin-right: 0;
+}
+.header__icons_list {
+  margin: 0;
+  display: inline-flex;
+  list-style-type: none;
+}
+
+.shop {
+  margin-left: 57px;
+}
+
+.main__title {
+  margin-top: 180px;
+  width: 620px;
+  height: 91px;
+
+  font-family: Sora;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 91px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main__subtitle {
+  margin-top: 30px;
+  margin-bottom: 0;
+  height: 23px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.main__about {
+  margin-top: 15px;
+  width: 356px;
+  height: 54px;
+
+  font-style: normal;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+.main__add_butons_container {
+  margin-top: 49px;
+  display: inline-flex;
+}
+
+.main__add_buttons_1 {
+  height: 60px;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 18px;
+
+  padding: 12px 21px;
+
+  margin-right: 2px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+}
+
+.main__add_buttons_2 {
+  height: 60px;
+
+  font-style: normal;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 21px 33px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+}
+
+.footer__wraper {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__icons_list {
+  margin: 0;
+  display: inline-flex;
+
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer__icons_item {
+  margin-right: 35px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.footer__icon_link {
+  display: flex;
+  color: #afb1b8;
+  padding: 0;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+.footer__sneakers_container {
+  display: inline-flex;
+}
+
+.footer__sneakers_list {
+  display: inline-flex;
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+}
+
+.footer__sneakers_items {
+  margin-left: 50px;
+
+  // padding: 0 12px 12px 12px;
+  padding: 12px;
+  // width: 199px;
+  // height: 179px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  display: inline-flex;
+  flex-direction: column;
+
+  box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+  background: rgba(76, 76, 76, 1);
+  background: -moz-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(76, 76, 76, 1) 0%,
+    rgba(89, 89, 89, 1) 0%,
+    rgba(43, 43, 43, 1) 51%,
+    rgba(0, 0, 0, 1) 68%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background: -webkit-gradient(
+    radial,
+    center center,
+    0px,
+    center center,
+    100%,
+    color-stop(0%, rgba(76, 76, 76, 1)),
+    color-stop(0%, rgba(89, 89, 89, 1)),
+    color-stop(51%, rgba(43, 43, 43, 1)),
+    color-stop(68%, rgba(0, 0, 0, 1)),
+    color-stop(100%, rgba(0, 0, 0, 1))
+  );
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(76, 76, 76, 1) 0%,
+    rgba(89, 89, 89, 1) 0%,
+    rgba(43, 43, 43, 1) 51%,
+    rgba(0, 0, 0, 1) 68%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background: -o-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(76, 76, 76, 1) 0%,
+    rgba(89, 89, 89, 1) 0%,
+    rgba(43, 43, 43, 1) 51%,
+    rgba(0, 0, 0, 1) 68%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background: -ms-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(76, 76, 76, 1) 0%,
+    rgba(89, 89, 89, 1) 0%,
+    rgba(43, 43, 43, 1) 51%,
+    rgba(0, 0, 0, 1) 68%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background: radial-gradient(
+    ellipse at center,
+    rgba(76, 76, 76, 1) 0%,
+    rgba(89, 89, 89, 1) 0%,
+    rgba(43, 43, 43, 1) 51%,
+    rgba(0, 0, 0, 1) 68%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#000000', GradientType=1 );
+}
+.proba {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__goods {
+  width: 190px;
+  height: 150px;
+}
+
+.footer_icons_container {
+  display: inline-flex;
+}
+
+.footer_icons {
+  width: 19px;
+  height: 19px;
+
+  &:nth-child(3) {
+    margin-left: auto;
+  }
+}
+
+.footer__icons_1 {
+  width: 19px;
+  height: 19px;
+  margin-right: 12px;
+
+  &:nth-child(3) {
+    margin-left: auto;
+  }
+}
